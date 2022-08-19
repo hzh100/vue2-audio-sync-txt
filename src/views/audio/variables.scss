@@ -1,0 +1,94 @@
+// 主体结构
+$--main-background-color: #141414;
+$--main-background-hcolor: #252528;
+$--main-text-color: #fff;
+$--main-text1-color: rgba(255, 255, 255, 0.65);
+$--main-text2-color: rgba(255, 255, 255, 0.85);
+$--main-text3-color: rgba(255, 255, 255, 0.45);
+$--main-text4-color: rgba(255, 255, 255, 0.25);
+$--main-text5-color: rgba(255, 255, 255, 0.20);
+$--main-success-color: #2BD679;
+// 内容
+$--common-background-color: #1E1E20;
+$--common-background-hcolor: #252528;
+$--button-background-color:#303034;
+$--empty-background-color: #111112;
+$--common-border-color: #2B2C31;
+$--emptybtn-border-color: rgba(255, 255, 255, 0.25);
+$--emptybtn-background-hcolor: rgba(255, 255, 255, 0.04);
+$--common-img-background-color: #ffffff14;
+
+
+// input
+$--input-background-color: #19191A;
+$--input-placeholder-color: rgba(255, 255, 255, 0.25);
+$--input-border-color: rgba(255, 255, 255, 0.1);
+$--input-back-color: rgba(255, 255, 255, 0);
+$--input-bground-color:#1C191A;
+
+/// bavbar
+$--navbar-height: 48px;
+$--navbar-background-color: #141414;
+$--navbar-border-bottom: rgba(59, 61, 68, 0.5);
+$--border-color:rgba(253, 175, 175, 0.1);
+$--span-border-color:rgba(255, 255, 255, 0.35);
+/// sidebar
+$--sidebar-open-width: 144px;
+$--sidebar-close-width: 60px;
+//text family 字体样式
+$--text-family: PingFangSC-Regular,
+PingFang SC;
+$--text-DingPro:'DingPro';
+// nav按钮
+$--nav-disabled-color:rgba(255, 255, 255, 0.45);
+$--nav-disabled-icon-color: #34363D;
+$--nav-normal-color:rgba(255, 255, 255, 0.85);
+$--nav-active-color:#DC573C;
+$--nav-checkbox-color:#34363D;
+$--nav-font-size: 14px;
+$--nav-font2-size: 13px;
+$--nav-active-fouces:#83ACFD; // 动画
+$--nav-derivatived-icon: #FA8F27;
+// user
+$--user-content-color:#19191a;
+// el-upload
+$--upload-border-color:#409eff;
+$--upload-border1-color:#d9d9d9;
+$--upload-background-color:#ccc;
+// Auth-code
+$--code-shadow-color:rgba(0, 0, 0, 0.15);
+//进度条
+$--progress-back:#afafaf;
+// login
+$--login-box-shadow:rgba(89, 89, 89, 0.23);
+$--login-background-color:#141215;
+$--login-active-button:rgba(220, 87, 60, 0.7);
+// message
+$--msg-content-color:#000000;
+$--msg-err-color:#f56c6c;
+$--msg-err-background-color:#fef0f0;
+// icon
+$--icon--fill-color:#eb4e4e;
+$--icon1--fill-color:#e77924;
+//table
+$--table--wrapper-color:#565657;
+
+@keyframes commonshow {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes commonhide {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
