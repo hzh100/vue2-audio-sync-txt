@@ -1,18 +1,26 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h4>Welcome to Your Vue.js App</h4>
+    <div class="form-box">
+      <HzhForm></HzhForm>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import HzhForm from '@/components/HzhForm.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    HzhForm
   }
 }
 </script>
+
+<style scoped lang="scss">
+  .form-box {
+    width: 400px;
+  }
+</style>
